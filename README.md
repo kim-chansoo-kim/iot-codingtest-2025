@@ -121,3 +121,55 @@ IoT 개발자 코딩테스트 준비 리포지토리
 ## 2일차 - 코테 정복시작
 
 ### 배열 
+- 다른 언어와 달리 파이썬은 배열이 없음! 리스트 사용해서 배열로 대체 사용
+- [링크](./day02/01_배열.ipynb)
+
+#### 프로그래머스 코테 진행
+1. solution.py 내 에디터에서 코딩 진행
+2. `코드실행`
+    - 실패
+
+        <img src="./image/ct0001.png" width="600">
+
+    - 성공
+
+        <img src="./image/ct0002.png" width="500">
+
+3. `제출 후 채점하기` 클릭
+    - 테스트케이스 9번 반복
+    - 하나라도 실패하면 통과 못함. 전부 통과
+
+    <img src="./image/ct0003.png" width="400">
+
+4. 다른 사람의 풀이 보기 가능(점수 차감X)
+
+#### 모의 테스트
+1. [두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) 
+2. [방문 길이](https://school.programmers.co.kr/learn/courses/30/lessons/49994)
+
+### 스택
+- LIFO: 맨 나중에 추가한 데이터가 가장 먼저 출력되는 구조
+- push() : 데이터 삽입. 쌓여있는 데이터 마지막에 추가
+- pop() : 데이터 추출. 쌓영있는 데이터 마지막에서 추출
+- [링크](./day02/02_스택.ipynb)
+
+## 3일차 - 코테 정복시작
+
+### 깃헙 팁
+- https://github.com/hugoMGSung 주소에 com -> dev
+    - 브라우저 상에서 온라인 VS Code가 실행
+    - 로컬 VS Code와 동일하게 사용가능
+    - 처음 Ctrl + F5로 실행, CodeSpace 설정, CPU 2Core, 8Gb... 등 선택하고 코드스페이스 생성
+
+    <img src="./image/ct0004.png" width="700">
+
+### 스택
+- 몸풀기 문제, 모의 테스트
+- 제출 후 체점하기에서 print()문 제거 또는 주석처리할 것(효율성 테스트)
+- [링크](./day03/01_스택.ipynb)
+
+### 큐
+- FIFO : 맨 먼저 삽입한 데이터가 가장 먼저 출력되는 구조
+- enQueue() : 데이터 삽입
+- deQueue() : 데이터 추출
+- [링크](./day03/02_큐.ipynb)
